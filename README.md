@@ -3,6 +3,11 @@
 ## 📌 Project Overview
 
 This project is a **Machine Learning-based Fraud Detection system** that predicts whether a financial transaction is likely to be fraudulent or not.
+## 🚀 Live Demo
+
+👉 [Click here to open the Fraud Detection App]
+  (Local URL: http://localhost:8501
+  Network URL: http://192.168.1.6:8501)
 
 The project includes:
 
