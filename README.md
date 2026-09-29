@@ -1,11 +1,10 @@
 # Fraud Detection using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a **Machine Learning-based Fraud Detection system** that predicts whether a financial transaction is likely to be fraudulent or not.
-## 🚀 Live Demo
-
-👉 [Click here to open the Fraud Detection App]
+## Live Demo
+ [Click here to open the Fraud Detection App]
   (Local URL: http://localhost:8501
   Network URL: http://192.168.1.6:8501)
 
@@ -22,7 +21,7 @@ The project includes:
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The main objective of this project is to build a machine learning model that can identify potentially fraudulent transactions based on transaction details such as:
 
@@ -42,7 +41,7 @@ The model predicts:
 
 ---
 
-## 📊 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 The dataset was explored to understand the transaction patterns and identify characteristics associated with fraudulent transactions.
 
@@ -64,7 +63,7 @@ Visualizations were created using **Matplotlib and Seaborn**.
 
 ---
 
-## 🛠️ Feature Engineering
+##  Feature Engineering
 
 Additional features were created from the existing balance information.
 
@@ -88,7 +87,7 @@ These features help provide additional information about how balances change dur
 
 ---
 
-## 🤖 Machine Learning
+##  Machine Learning
 
 ### Algorithm Used
 
@@ -114,7 +113,7 @@ The model uses:
 
 ---
 
-## 🔄 Data Preprocessing
+##  Data Preprocessing
 
 A Scikit-learn `ColumnTransformer` was used to apply different preprocessing techniques to numerical and categorical features.
 
@@ -142,7 +141,7 @@ drop="first"
 
 ---
 
-## ⚖️ Handling Class Imbalance
+##  Handling Class Imbalance
 
 Fraudulent transactions are much less common than normal transactions.
 
@@ -156,7 +155,7 @@ This helps the model pay more attention to fraudulent transactions during traini
 
 ---
 
-## 🔗 Machine Learning Pipeline
+##  Machine Learning Pipeline
 
 A Scikit-learn Pipeline was created to combine preprocessing and model training.
 
@@ -179,7 +178,7 @@ This ensures that the same preprocessing steps are applied when making predictio
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 The model was evaluated using:
 
@@ -205,7 +204,7 @@ For fraud detection, precision and recall are particularly useful because the da
 
 ---
 
-## 💾 Saving the Model
+##  Saving the Model
 
 The complete preprocessing and Logistic Regression pipeline was saved using Joblib:
 
@@ -217,7 +216,7 @@ This allows the trained pipeline to be reused without training the model again.
 
 ---
 
-## 🌐 Streamlit Web Application
+##  Streamlit Web Application
 
 A Streamlit application was created to allow users to enter transaction details and receive a fraud prediction.
 
@@ -241,7 +240,7 @@ The application then displays an appropriate message.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Fraud-Detection/
@@ -257,7 +256,7 @@ Fraud-Detection/
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - Python
 - Pandas
@@ -271,7 +270,7 @@ Fraud-Detection/
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 
 ### 1. Clone the repository
 
@@ -301,7 +300,7 @@ The Streamlit application will open in your browser.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Some possible improvements include:
 
@@ -315,7 +314,7 @@ Some possible improvements include:
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Koel Saha**
 
